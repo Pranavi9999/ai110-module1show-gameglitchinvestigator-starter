@@ -8,6 +8,10 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+  - I noticed that the hint was incorrect. I started with guessing the number 50, and it told me to go lower each time until I reached 1. Turns out the secret number was 57!
+  - The difficulty levels are not set up properly. When I click the easy level, it allows a lesser number of guesses than the normal mode.
+  - Clicking the new game button doesn't successfully start the new game
+
 ---
 
 ## 2. How did you use AI as a teammate?
@@ -17,6 +21,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
 ---
+- I used Claude for this project. The suggestion that was corect was how to fix the refresh error. It gave the correct solution and it worked when I implemented it. One incorrect solution AI gave was for the test cases. It provided two test cases and one of them was overly complicated and tested things that did not need to be tested.
 
 ## 3. Debugging and testing your fixes
 
@@ -26,6 +31,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Did AI help you design or understand any tests? How?
 
 ---
+- I decided that the bug was fixed when I checked the website and found that the new game button allowed me to restart the game without having to refresh the window. I utilized claude to help me write a pytest to ensure that the fixes that Claude provided were correct. AI helped me design the tests since I've never created them before.
 
 ## 4. What did you learn about Streamlit and state?
 
