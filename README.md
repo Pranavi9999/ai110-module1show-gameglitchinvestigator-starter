@@ -25,13 +25,20 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
+- [ ] Describe the game's purpose: To guess the secret number in an allotted number of guesses.
+- [ ] Detail which bugs you found. I found multiple: 
+- The game doesn't restart when you click the restart button. You have to manually refresh the browser. 
+- The hints are wrong.
+- The number keeps changing.
+- The difficult level setting is wrong
+- It says if you click enter it will submit the guess, but it doesn't.
 - [ ] Explain what fixes you applied.
+- I fixed the new game button.
+- I also fixed the hints to be correct and the secret number to sop changing.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] ![alt text](image.png)
 
 ## 🚀 Stretch Features
 
